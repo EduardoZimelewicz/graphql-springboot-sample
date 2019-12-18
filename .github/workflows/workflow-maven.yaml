@@ -19,6 +19,4 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
       - name: Deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: mvn deploy -Dregistry=https://maven.pkg.github.com/EduardoZimelewicz -Dtoken=$GITHUB_TOKEN
+        run: mvn deploy -Dregistry=https://maven.pkg.github.com/EduardoZimelewicz -Dtoken=GH_TOKEN
