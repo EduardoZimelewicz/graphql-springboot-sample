@@ -20,13 +20,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <repositories>
+    <distributionManagement>
         <repository>
             <id>github</id>
             <name>github package registry</name>
             <url>https://maven.pkg.github.com/EduardoZimelewicz</url>
         </repository>
-    </repositories>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
