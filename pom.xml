@@ -24,7 +24,7 @@
         <repository>
             <id>github</id>
             <name>github owner package registry</name>
-            <url>https://maven.pkg.github.com/EduardoZimelewicz/OWNER/REPOSITORY</url>
+            <url>https://maven.pkg.github.com/EduardoZimelewicz/graphql-springboot-sample</url>
         </repository>
     </distributionManagement>
 
