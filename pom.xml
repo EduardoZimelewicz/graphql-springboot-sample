@@ -6,7 +6,7 @@
 
     <groupId>com.github.pkg</groupId>
     <artifactId>graphql-springboot-sample</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,7 +24,7 @@
         <repository>
             <id>github</id>
             <name>github owner package registry</name>
-            <url>https://maven.pkg.github.com/EduardoZimelewicz/graphql-springboot-sample</url>
+            <url>https://maven.pkg.github.com/EduardoZimelewicz/${artifactId}</url>
         </repository>
     </distributionManagement>
 
